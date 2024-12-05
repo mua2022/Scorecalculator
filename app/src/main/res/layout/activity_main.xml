@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/Header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:paddingBottom="30dp"
+        android:text="SCORE AND GRADE CALCULATOR" />
+
+    <!-- Input fields for 5 subjects -->
+    <TextView
+        android:id="@+id/TxtMaths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:text="Mathematics" />
+
+    <EditText
+        android:id="@+id/Subject1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter marks for Maths"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/TxtEng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:text="English:" />
+
+
+    <EditText
+        android:id="@+id/Subject2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter marks for English"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/TxtArt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:text="Art Work:" />
+
+
+    <EditText
+        android:id="@+id/Subject3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter marks for Art Work"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/TxtSoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:text="Social Sciences" />
+
+
+    <EditText
+        android:id="@+id/Subject4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter marks for Social Sciences"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/TxtComp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:text="Computer Packages" />
+
+
+    <EditText
+        android:id="@+id/Subject5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter marks for Computer Packages"
+        android:inputType="number" />
+
+    <!-- Button to calculate -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"/>
+
+    <!-- Text view to display results -->
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:text=""/>
+</LinearLayout>
